@@ -20,4 +20,14 @@ To build this app, we use:
 *   **pyttsx3** for text-to-speech conversion, which runs offline.
 *   **Pathlib** to handle file paths and ensure everything is saved correctly.
 
+**How to Run**
+-------------------------
+
+*   Clone the app:
+`git clone https://github.com/walterpinem/PDF-to-Audiobook-Converter.git`
+*   Install required modules:
+`pip install streamlit pyttsx3 pdfplumber`
+*   Run the app:
+`streamlit run app.py`
+
 For full tutorial, you read the [**How to Create an Audiobook App Using Python and Streamlit**](https://walterpinem.com/python-streamlit-audiobook-app/ "How to Create an Audiobook App Using Python and Streamlit").
